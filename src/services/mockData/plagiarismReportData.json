@@ -1,0 +1,30 @@
+{
+  "low_plagiarism": [
+    {
+      "matchPercentage": 8,
+      "sources": [
+        {"url": "wikipedia.org", "similarity": 5},
+        {"url": "britannica.com", "similarity": 3}
+      ],
+      "highlights": [
+        {"start": 0, "length": 3, "source": "Wikipedia"},
+        {"start": 15, "length": 2, "source": "Britannica"}
+      ]
+    }
+  ],
+  "high_plagiarism": [
+    {
+      "matchPercentage": 45,
+      "sources": [
+        {"url": "wikipedia.org", "similarity": 25},
+        {"url": "britannica.com", "similarity": 15},
+        {"url": "academia.edu", "similarity": 5}
+      ],
+      "highlights": [
+        {"start": 0, "length": 8, "source": "Wikipedia"},
+        {"start": 20, "length": 6, "source": "Britannica"},
+        {"start": 35, "length": 4, "source": "Academia"}
+      ]
+    }
+  ]
+}

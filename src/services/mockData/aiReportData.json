@@ -1,0 +1,46 @@
+{
+  "high_ai_scores": [
+    {
+      "score": 85,
+      "confidence": 92,
+      "flaggedPhrases": ["As an AI", "In conclusion", "Furthermore"],
+      "analysis": {
+        "naturalness": 45,
+        "coherence": 88,
+        "vocabulary": 65
+      }
+    },
+    {
+      "score": 78,
+      "confidence": 87,
+      "flaggedPhrases": ["It is important to note", "Additionally", "Moreover"],
+      "analysis": {
+        "naturalness": 52,
+        "coherence": 82,
+        "vocabulary": 68
+      }
+    }
+  ],
+  "low_ai_scores": [
+    {
+      "score": 25,
+      "confidence": 81,
+      "flaggedPhrases": [],
+      "analysis": {
+        "naturalness": 85,
+        "coherence": 88,
+        "vocabulary": 82
+      }
+    },
+    {
+      "score": 18,
+      "confidence": 76,
+      "flaggedPhrases": ["Therefore"],
+      "analysis": {
+        "naturalness": 88,
+        "coherence": 85,
+        "vocabulary": 85
+      }
+    }
+  ]
+}
