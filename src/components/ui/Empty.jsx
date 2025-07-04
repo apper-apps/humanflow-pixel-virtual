@@ -1,8 +1,8 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import ApperIcon from '@/components/ApperIcon'
-import Button from '@/components/atoms/Button'
-
+import React from "react";
+import { motion } from "framer-motion";
+import AppIcon from "@/components/AppIcon";
+import ApperIcon from "@/components/ApperIcon";
+import Button from "@/components/atoms/Button";
 const Empty = ({ 
   icon = 'FileText', 
   title = 'No data available', 
