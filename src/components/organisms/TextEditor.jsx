@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import TextInputPanel from "@/components/molecules/TextInputPanel";
+import AppIcon from "@/components/AppIcon";
+import Empty from "@/components/ui/Empty";
+import Error from "@/components/ui/Error";
 import TextOutputPanel from "@/components/molecules/TextOutputPanel";
 import ProcessingOverlay from "@/components/molecules/ProcessingOverlay";
-import Empty from "@/components/ui/Empty";
-import AppIcon from "@/components/ui/AppIcon";
+import TextInputPanel from "@/components/molecules/TextInputPanel";
 
 const TextEditor = ({ 
   originalText, 
